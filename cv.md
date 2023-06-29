@@ -47,6 +47,7 @@ while (i < list.lenght) {
   * [HTML Academy](https://htmlacademy.ru/study)
   * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
   * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+  
 ---
 ### Languages:
 * English: 
