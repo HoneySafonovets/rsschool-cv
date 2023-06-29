@@ -18,7 +18,7 @@ Young and promising frontend developer. A year ago, I became interested in progr
 I have a bachelor's and master's degree in electrical engineering. But still, my dream is to write code in JavaScript and make up a page of sites. In companies, I am sociable and always ready to meet new interesting people. Always ready to learn new things.
 
 ---
-Skills and Proficiency:
+### Skills and Proficiency:
 * HTML5, CSS3, Sass
 * JavaScript (Basics)
 * Git, GitHub
