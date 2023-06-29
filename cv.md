@@ -1,4 +1,4 @@
-# [rsschool-cv](https://HoneySafonovets.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://github.com/HoneySafonovets/rsschool-cv/blob/gh-pages/cv.md)
 
 # Danil Egorov
 ### Junior Frontend developer
@@ -48,4 +48,7 @@ while (i < list.lenght) {
   * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ---
 ### Languages:
-* A2 - elementary
+* English: 
+  + A2 - elementary
+* Russian:
+  + native
