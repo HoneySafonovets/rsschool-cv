@@ -48,4 +48,4 @@ while (i < list.lenght) {
   * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ---
 ### Languages:
-* 
+* A2 - elementary
