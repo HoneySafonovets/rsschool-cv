@@ -12,7 +12,6 @@ __E-mail:__ kfs.boi@yandex.ru
 __Telegram:__ @DenIzSafonovo
 
 ---
-
 ### Briefly About Myself:
 
 Young and promising frontend developer. A year ago, I became interested in programming and started learning JavaScript. Studied JavaScript and HTML, CSS, writing more  and more code. 
@@ -23,9 +22,11 @@ Skills and Proficiency:
 * HTML5, CSS3, Sass
 * JavaScript (Basics)
 * Git, GitHub
-* VS Code All, WebStorm
 * Adobe Photoshop, Illustrator, InDesign, Figma
+* VS Code All, WebStorm
+
 ---
+
 ### Code example:
 
 ```
