@@ -140,7 +140,7 @@ body {
 .nav-link:hover {
   color: #D4C17F;
   text-decoration: none;  
-  transition: color 0.5s;
+  transition: color 0.7s;
 }
 
 /* Profile styles start */
@@ -163,14 +163,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px 30px 35px;
+  padding: 50px 30px 30px;
   width: 100%;
-  border-bottom: 15px solid #d7d1c9;
+  border-bottom: 3px solid #242B33;
 }
 
 .section-profile-img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
@@ -183,7 +183,6 @@ body {
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  border-left: 3px solid black;
 }
 
 .section-title {
@@ -192,18 +191,35 @@ body {
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 5px;
-  padding-bottom: 10px;
+  margin-bottom: 30px;
+  width: 300px;
   border-bottom: 3px solid #242B33;
 }
 
+.section-subtitle {
+  margin-top: 30px;
+}
+
 .main-title {
-  /* position: relative; */
+  position: relative;
   /* margin-bottom: 20px; */
   font-family: "Playfair Display" sans-serif;
   color: #131314;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 5px;
+  border-bottom: none;
+  width: 100%;
+}
+
+.main-title::after {
+  position:absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 50%;
+  margin-left: -113px;
+  border-top: 3px solid #000;
+  content: "";
 }
 
 .section-subtitle {
@@ -213,6 +229,13 @@ body {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 5px;
+}
+
+/* Start basic info section */
+
+/* Возможно стоит удалить */
+.section-top {
+  padding-top: 30px;
 }
 
 /* Footer styles */
