@@ -138,9 +138,9 @@ body {
 }
 
 .nav-link:hover {
-  color: #D4C17F;
   text-decoration: none;  
-  transition: color 0.7s;
+  color: #D4C17F;
+  transition: color 0.5s;
 }
 
 /* Profile styles start */
@@ -156,14 +156,27 @@ body {
 }
 
 .section {
-  width: 50%;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.section a {
+  color: #5e4f19;
+  text-decoration: none;  
+  transition: color 0.7s;
+}
+
+.section a:hover {
+  color: #D4C17F;
+  text-decoration: none;  
+  transition: color 0.7s;
 }
 
 .section-profile {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px 30px 30px;
+  padding: 50px 30px 50px;
   width: 100%;
   border-bottom: 3px solid #242B33;
 }
@@ -173,8 +186,14 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  border: 1px solid #242B33;
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, .6);
   filter: opacity(50%) (1.05);
+}
+
+.section-profile-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in;
 }
 
 .section-profile-title {
@@ -186,7 +205,7 @@ body {
 }
 
 .section-title {
-  font-family: "Playfair Display" sans-serif;
+  font-family: 'Roboto', sans-serif;;
   color: #131314;
   font-size: 25px;
   font-weight: 400;
@@ -202,8 +221,7 @@ body {
 
 .main-title {
   position: relative;
-  /* margin-bottom: 20px; */
-  font-family: "Playfair Display" sans-serif;
+  font-family: 'Roboto', sans-serif;;
   color: #131314;
   font-size: 25px;
   font-weight: 400;
@@ -214,17 +232,17 @@ body {
 
 .main-title::after {
   position:absolute;
-  bottom: -20px;
+  bottom: -30px;
   left: 50%;
   width: 50%;
   margin-left: -113px;
-  border-top: 3px solid #000;
+  border-top: 3px solid #242B33;
   content: "";
 }
 
 .section-subtitle {
   padding-top: 10px;
-  font-family: "Playfair Display" sans-serif;
+  font-family: 'Roboto', sans-serif;;
   color: #131314;
   font-size: 20px;
   font-weight: 400;
@@ -233,9 +251,24 @@ body {
 
 /* Start basic info section */
 
-/* Возможно стоит удалить */
 .section-top {
-  padding-top: 30px;
+  padding-top: 40px;
+}
+
+.section-item {
+  position: relative;
+  padding-left: 30px;
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 10px;
+  height: 10px; 
+  border: 1px solid #242B33;
+  border-radius: 50%;
 }
 
 /* Footer styles */
