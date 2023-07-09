@@ -228,6 +228,15 @@ p {
   margin-top: 30px;
 }
 
+.section-subtitle {
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;;
+  color: #131314;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
 .main-title {
   position: relative;
   font-family: 'Roboto', sans-serif;;
@@ -254,18 +263,9 @@ p {
   content: "";
 }
 
-.section-subtitle {
-  padding-top: 10px;
-  font-family: 'Roboto', sans-serif;;
-  color: #131314;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 5px;
-}
-
 .section-subtitle:hover {
   transform: scale(1.2);
-  transition: transform 0.2s ease-in; 
+  transition: transform 0.5s ease-in; 
 }
 
 /* Start basic info section */
