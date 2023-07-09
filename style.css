@@ -222,6 +222,8 @@ p {
   transition: transform 0.3s ease-in;
 }
 
+/* Styles for title */
+
 .section-profile-title {
   display: flex;
   flex-direction: column;
