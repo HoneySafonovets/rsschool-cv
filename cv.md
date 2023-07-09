@@ -15,7 +15,7 @@ __Telegram:__ @DenIzSafonovo
 ### Briefly About Myself:
 
 Young and promising frontend developer. A year ago, I became interested in programming and started learning JavaScript. Studied JavaScript and HTML, CSS, writing more  and more code. 
-I have a bachelor's and master's degree in electrical engineering. But still, my dream is to write code in JavaScript and make up a page of sites. In companies, I am sociable and always ready to meet new interesting people. Always ready to learn new things.
+I have a bachelor's and master's degree in electrical engineering. But still, my dream is to write code in JavaScript and make up a pages of sites. In companies, I am sociable and always ready to meet new interesting people. Always ready to learn new things.
 
 ---
 ### Skills and Proficiency:
