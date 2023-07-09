@@ -144,9 +144,16 @@ p {
   align-items: center;
 }
 
+/* Animation for nav-link */
+
 .nav-item:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease-in;
+}
+
+.nav-item:not(hover) {
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
 }
 
 .nav-link {
@@ -159,6 +166,11 @@ p {
 .nav-link:hover { 
   color: #D4C17F;
   transition: color 0.5s;
+}
+
+.nav-link:not(hover) { 
+  color: #fff;
+  transition: color 0.3s;
 }
 
 /* Profile styles start */
@@ -202,7 +214,12 @@ p {
 
 .section-profile-img:hover {
   transform: scale(1.1);
-  transition: transform 0.2s ease-in;
+  transition: transform 0.3s ease-in;
+}
+
+.section-profile-img:not(hover) {
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
 }
 
 .section-profile-title {
@@ -240,6 +257,11 @@ p {
   transition: transform 0.5s ease-in;
 }
 
+.main-title:not(hover) {
+  transform: scale(1);
+  transition: transform 0.5s ease-in;
+}
+
 .main-title::after {
   position:absolute;
   bottom: -30px;
@@ -268,6 +290,11 @@ p {
   transition: transform 0.5s ease-in; 
 }
 
+.section-subtitle:not(hover) {
+  transform: scale(1);
+  transition: transform 0.5s ease-in; 
+}
+
 /* Start basic info section */
 
 .section-item {
@@ -287,10 +314,27 @@ p {
   border-radius: 50%;
 }
 
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+.code-move:hover {
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  transform: translateX(600px);
+}
+
+.code-move:not(hover) {
+  transition: transform 1s ease-in-out;
+  transform: translateX(0px);
+}
+
 /* Footer styles */
 
 .footer {
   background: #242B33;
+  padding: 30px;
 }
 
 .footer-container {
@@ -311,4 +355,12 @@ p {
 .footer-link:hover { 
   color: #D4C17F;
   transition: color 0.5s ease-in;
+}
+
+.rss {
+  width: 150px;
+  height: 70px;
+  background: url(assets/rss.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
