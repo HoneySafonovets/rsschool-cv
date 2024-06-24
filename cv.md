@@ -40,3 +40,18 @@ while (i < list.lenght) {
 }
 ```
 ---
+
+### Education
+* University: Moscow Agricultural Academy named after K.A.Timiryazev (Moscow Timiryazev Agricultural Academy). Profession: electrical engineer.
+* Courses:
+  * [HTML Academy](https://htmlacademy.ru/study)
+  * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+  * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+---
+
+### Languages:
+* English:
+  + A2 - elementary
+* Russian:
+  + native
