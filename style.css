@@ -90,6 +90,23 @@ legend {
 }
 
 /* Basic styles */
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
   margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
 }
