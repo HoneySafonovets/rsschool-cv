@@ -129,7 +129,6 @@ html {
   padding: 31px 0px;
 }
 
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -147,6 +146,7 @@ html {
 }
 
 @media (hover: hover) {
+  /* Nav-items hover */
   .nav-item:hover {
     transform: scale(1.2);
     transition: transform 0.3s ease-in;
@@ -155,6 +155,16 @@ html {
   .nav-item:not(hover) {
     transform: scale(1);
     transition: transform 0.3s ease-in;
+  }
+
+  /* Nav-link hover */
+  .nav-link:hover {
+    color: #D4C17F;
+    transition: color 0.3s ease-in;
+  }
+  .nav-link:not(hover) {
+    color: #fff;
+    transition: color 0.3s ease-in;
   }
 
   /* Section-profile */
