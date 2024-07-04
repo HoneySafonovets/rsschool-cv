@@ -110,3 +110,45 @@ html {
   margin: 0 auto;
   min-height: 50px;
 }
+
+
+/* Headers styles */
+.header {
+  background-color: #242B33;
+  padding: 31px 0px;
+}
+
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  
+}
+
+@media (hover: hover) {
+  .nav-item:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in;
+  }
+
+  .nav-item:not(hover){
+    transform: scale(1);
+    transition: transform 0.3s ease-in;
+  }
+}
+
+
+
+
+
+
+
+/* Footer styles */
+.footer {
+  background-color: #242B33;
+  padding: 30px;
+}
