@@ -190,6 +190,11 @@ html {
   }
 
 
+  /* Links styles */
+  .section a:hover {
+    color: #242B33;
+    transition: color 0.3s ease-in;
+  }
 
 
   /* Footer */
@@ -244,6 +249,21 @@ html {
   width: 100%;
 }
 
+.main-title::after {
+  position:absolute;
+  bottom: -30px;
+  left: 50%;
+  width: 80%;
+  margin-left: -113px;
+  border-top: 3px solid #242B33;
+  content: "";
+}
+
+.section-subtitle {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
 .section-profile {
   display: flex;
   flex-direction: row;
@@ -279,7 +299,36 @@ html {
   letter-spacing: 5px;
   margin-bottom: 30px;
   width: 100%;
+  /* border-bottom: 3px solid #242B33; */
+}
+
+.section-title-active {
   border-bottom: 3px solid #242B33;
+}
+
+/* Styles for links in sections */
+.section a {
+  color: #D4C17F;
+  transition: color 0.7s;
+}
+
+/* List item */
+.section-item {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #D4C17F;
+  border-radius: 50%;
+  /* color: #D4C17F; */
 }
 
 /* Footer styles */
