@@ -168,7 +168,8 @@ html {
   }
 
   /* Main-title */
-  .main-title:hover {
+
+  /* .main-title:hover {
     transform: scale(1.2);
     transition: transform 0.3s ease-in;
   }
@@ -176,7 +177,7 @@ html {
   .main-title:not(hover) {
     transform: scale(1);
     transition: transform 0.3s ease-in;
-  }
+  } */
 
   /* Section-profile */
   .section-profile-img:hover {
@@ -186,6 +187,44 @@ html {
   .section-profile-img:not(hover) {
     transform: scale(1);
     transition: transform 0.3s ease-in;
+  }
+
+
+
+
+  /* Footer */
+  .footer-name:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in;
+    color: #D4C17F;
+  }
+  .footer-name:hover .footer-link {
+    transition: color 0.3s ease-in;
+    color: #D4C17F;
+  }
+
+  .footer-name:not(hover) {
+    transform: scale(1);
+    transition: all 0.3s ease-in;
+    color: #fff;
+  }
+  .footer-name:not(hover) .footer-link {
+    transition: all 0.3s ease-in;
+    color: #fff;
+  }
+
+  /* Footer svg */
+  svg:hover {
+    transform: scale(1.2);
+    stroke: #D4C17F;
+    fill: #D4C17F; 
+    transition: all 0.3s ease-in;
+  }
+  svg:not(hover) {
+    transform: scale(1);
+    stroke: #fff;
+    fill: #fff; 
+    transition: all 0.3s ease-in;
   }
 }
 
@@ -246,5 +285,41 @@ html {
 /* Footer styles */
 .footer {
   background-color: #242B33;
-  padding: 30px;
+  padding: 50px 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-year {
+  font-size: 30px;
+}
+
+.footer-link {
+  display: block;
+  padding: 0 20px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-logo {
+  width: 150px;
+  height: 70px;
+}
+
+.footer-rss {
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  stroke: #fff;
+  fill: #fff; 
 }
