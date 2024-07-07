@@ -121,7 +121,9 @@ html {
   transition: color 0.7s;
 }
 
-
+.span {
+  color: #D4C17F;
+} 
 
 /* Headers styles */
 .header {
@@ -294,7 +296,7 @@ html {
 .section-title {
   font-family: "Roboto", sans-serif;
   color: #131314;
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 400;
   letter-spacing: 5px;
   margin-bottom: 30px;
@@ -304,6 +306,10 @@ html {
 
 .section-title-active {
   border-bottom: 3px solid #242B33;
+}
+
+.title-rigth {
+  text-align: right;
 }
 
 /* Styles for links in sections */
@@ -330,6 +336,40 @@ html {
   border-radius: 50%;
   /* color: #D4C17F; */
 }
+
+.summary-text {
+  line-height: 2;
+}
+
+/* Code section */
+.code-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.code-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-example {
+  font-size: 15px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  gap: 100px;
+}
+
+.code-none {
+  display: none;
+}
+
+.code-example-active {
+  display: block;
+}
+
 
 /* Footer styles */
 .footer {

@@ -49,8 +49,8 @@
         </ul>
       </section>
       <section class="section section-top" id="summary">
-        <h2 class="section-title section-title-active ">Summary</h2>
-        <p>
+        <h2 class="section-title section-title-active title-rigth">Summary</h2>
+        <p class="summary-text">
           Young and promising frontend developer.
           A year ago, I became interested in programming and started learning JavaScript.
           Studied JavaScript and HTML, CSS, writing more and more code.
@@ -59,21 +59,62 @@
           In companies, I am sociable and always ready to meet new interesting people.
           Always ready to learn new things.
         </p>
-        </section>
-        <section class="section section-top" id="skills">
-          <h2 class="section-title section-title-active">Skills</h2>
-          <ul class="section-list">
-            <li class="section-item contacts-item">Moscow, Russia</li>
-            <li class="section-item contacts-item">Email: <a href="mailto:kfs.boi@yandex.ru">kfs.boi@yandex.ru</a></li>
-            <li class="section-item contacts-item">Github: <a href="https://github.com/HoneySafonovets">HoneySafonovets</a></li>
-            <li class="section-item contacts-item">Telegram: <a href="https://t.me/DenIzSafonovo">DenIzSafonovo</a></li>
-            <li class="section-item contacts-item">Discord: <a href="https://discordapp.com/users/364837598578868234/">toobigdanil</a></li>
+      </section>
+      <section class="section section-top" id="skills">
+        <h2 class="section-title section-title-active">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">Web-development: <span class="span">HTML5, CSS3, Sass, JS</span></li>
+          <li class="section-item contacts-item">Version control: <span class="span">Git, GitHub, GitLab</span></li>
+          <li class="section-item contacts-item">Graphics: <span class="span">Adobe Photoshop, Illustrator, InDesign, Figma</span></li>
+          <li class="section-item contacts-item">IDE: <span class="span">VS Code</span></li>
+        </ul>
+      </section>
+      <section class="section section-top" id="code">
+        <h2 class="section-title section-title-active title-rigth">Code</h2>
+        <div class="section-code">
+          <ul class="code-list">
+            <li class="code-item">Code example "1"</li>
+            <li class="code-item">Code example "2"</li>
+            <li class="code-item">Code example "3"</li>
           </ul>
-        </section>
-        <section class="section section-top" id="code">
-          <h2 class="section-title section-title-active">Code</h2>
-        </section>
+          <div class="code-example">
+            <pre class="code-none code-example-active">
+              <code>
+const checkNumInputs = (selector) => {
+  const numInputs = document.querySelectorAll(selector)
+              
+  numInputs.forEach(item => {
+    item.addEventListener('input', () => {
+      item.value = item.value.replace(/\D/, '');
+    })
+  })
+};
+              </code>
+            </pre>
 
+            <pre class="code-none ">
+              <code>
+const clearinputs = () => {
+  inputs.forEach(item => {
+    item.value = ''
+  })
+}
+              </code>
+            </pre>
+
+            <pre class="code-none">
+              <code>
+function showModalByTimes(selector, time) {
+  setTimeout(() => {
+    document.querySelector(selector).style.display = 'block';
+    document.body.classList.add('modal-open');
+  }, time);
+};
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </div>
 
   </main>
