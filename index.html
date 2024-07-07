@@ -73,12 +73,12 @@
         <h2 class="section-title section-title-active title-rigth">Code</h2>
         <div class="section-code">
           <ul class="code-list">
-            <li class="code-item">Code example "1"</li>
-            <li class="code-item">Code example "2"</li>
-            <li class="code-item">Code example "3"</li>
+            <li class="code-item code-item-active" data-tab="#example_1">Code example "1"</li>
+            <li class="code-item" data-tab="#example_2">Code example "2"</li>
+            <li class="code-item" data-tab="#example_3">Code example "3"</li>
           </ul>
           <div class="code-example">
-            <pre class="code-none code-example-active">
+            <pre class="code-none code-example-active" id="example_1">
               <code>
 const checkNumInputs = (selector) => {
   const numInputs = document.querySelectorAll(selector)
@@ -92,7 +92,7 @@ const checkNumInputs = (selector) => {
               </code>
             </pre>
 
-            <pre class="code-none ">
+            <pre class="code-none" id="example_2">
               <code>
 const clearinputs = () => {
   inputs.forEach(item => {
@@ -102,7 +102,7 @@ const clearinputs = () => {
               </code>
             </pre>
 
-            <pre class="code-none">
+            <pre class="code-none" id="example_3">
               <code>
 function showModalByTimes(selector, time) {
   setTimeout(() => {

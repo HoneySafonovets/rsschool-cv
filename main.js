@@ -24,3 +24,26 @@ console.log(`
 
   Итого: 130 баллов
   `)
+
+
+const exampleBtn = document.querySelectorAll('.code-item ');
+const tabs = document.querySelectorAll('.code-none');
+
+
+exampleBtn.forEach(item => {
+  item.addEventListener('click', () => {
+    let tab = item.getAttribute('data-tab');
+    let tabClass = document.querySelector(tab);
+    console.log(tabClass)
+    
+    exampleBtn.forEach(item => {
+      item.classList.remove('code-item-active')
+    });
+    tabs.forEach(item => {
+      item.classList.remove('code-example-active')
+    });
+
+    item.classList.add('code-item-active');
+    tabClass.classList.add('code-example-active');
+  });
+});

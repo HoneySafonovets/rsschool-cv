@@ -199,6 +199,17 @@ html {
   }
 
 
+  .code-item:hover {
+    color: #D4C17F;
+    transition: color  0.3s ease-in;
+  }
+  .code-item:not(hover) {
+    color: #242B33;
+    transition: color  0.3s ease-in;
+  }
+
+
+
   /* Footer */
   .footer-name:hover {
     transform: scale(1.2);
@@ -352,14 +363,26 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+}
+.code-item-active {
+  border-bottom: 3px solid #D4C17F;
+  color: #D4C17F !important;
+  pointer-events: none;
 }
 
+/* Code-tabs block */
 .code-example {
   font-size: 15px;
   display: flex;
   /* align-items: center;
   justify-content: center; */
   gap: 100px;
+  height: 225px;
 }
 
 .code-none {
