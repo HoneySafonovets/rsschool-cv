@@ -393,6 +393,10 @@ html {
   display: block;
 }
 
+/* Size for before footer */
+.english-text {
+  font-size: 22px;
+}
 
 /* Footer styles */
 .footer {
