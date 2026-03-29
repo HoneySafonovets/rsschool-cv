@@ -14,26 +14,40 @@
 
 /* Links */
 
-a, a:link, a:visited  {
+a,
+a:link,
+a:visited {
   text-decoration: none;
 }
 
-a:hover  {
+a:hover {
   text-decoration: none;
 }
 
 /* Common */
 
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-size: inherit;
   font-weight: inherit;
 }
 
-ul, ul li {
+ul,
+ul li {
   list-style: none;
 }
 
@@ -41,7 +55,8 @@ img {
   vertical-align: top;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
 }
@@ -52,7 +67,10 @@ address {
 
 /* Form */
 
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -63,7 +81,8 @@ input::-ms-clear {
   display: none;
 }
 
-button, input[type="submit"] {
+button,
+input[type="submit"] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;
@@ -71,8 +90,10 @@ button, input[type="submit"] {
   cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
+input:focus,
+input:active,
+button:focus,
+button:active {
   outline: none;
 }
 
@@ -98,7 +119,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -117,17 +138,17 @@ html {
 }
 
 .section a {
-  color: #242B33;
+  color: #242b33;
   transition: color 0.7s;
 }
 
 .span {
-  color: #D4C17F;
-} 
+  color: #d4c17f;
+}
 
 /* Headers styles */
 .header {
-  background-color: #242B33;
+  background-color: #242b33;
   padding: 31px 0px;
 }
 
@@ -161,7 +182,7 @@ html {
 
   /* Nav-link hover */
   .nav-link:hover {
-    color: #D4C17F;
+    color: #d4c17f;
     transition: color 0.3s ease-in;
   }
   .nav-link:not(hover) {
@@ -191,34 +212,30 @@ html {
     transition: transform 0.3s ease-in;
   }
 
-
   /* Links styles */
   .section a:hover {
-    color: #242B33;
+    color: #242b33;
     transition: color 0.3s ease-in;
   }
 
-
   .code-item:hover {
-    color: #D4C17F;
-    transition: color  0.3s ease-in;
+    color: #d4c17f;
+    transition: color 0.3s ease-in;
   }
   .code-item:not(hover) {
-    color: #242B33;
-    transition: color  0.3s ease-in;
+    color: #242b33;
+    transition: color 0.3s ease-in;
   }
-
-
 
   /* Footer */
   .footer-name:hover {
     transform: scale(1.2);
     transition: all 0.3s ease-in;
-    color: #D4C17F;
+    color: #d4c17f;
   }
   .footer-name:hover .footer-link {
     transition: color 0.3s ease-in;
-    color: #D4C17F;
+    color: #d4c17f;
   }
 
   .footer-name:not(hover) {
@@ -234,14 +251,14 @@ html {
   /* Footer svg */
   svg:hover {
     transform: scale(1.2);
-    stroke: #D4C17F;
-    fill: #D4C17F; 
+    stroke: #d4c17f;
+    fill: #d4c17f;
     transition: all 0.3s ease-in;
   }
   svg:not(hover) {
     transform: scale(1);
     stroke: #fff;
-    fill: #fff; 
+    fill: #fff;
     transition: all 0.3s ease-in;
   }
 }
@@ -263,12 +280,12 @@ html {
 }
 
 .main-title::after {
-  position:absolute;
+  position: absolute;
   bottom: -30px;
   left: 50%;
   width: 80%;
   margin-left: -113px;
-  border-top: 3px solid #242B33;
+  border-top: 3px solid #242b33;
   content: "";
 }
 
@@ -290,8 +307,8 @@ html {
   height: 300px;
   object-fit: cover;
   border-radius: 70%;
-  border: 1px solid #242B33;
-  box-shadow: 1px 1px 14px rgba(0, 0, 0, .6);
+  border: 1px solid #242b33;
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.6);
   filter: opacity(50%) (1.05);
 }
 
@@ -316,7 +333,7 @@ html {
 }
 
 .section-title-active {
-  border-bottom: 3px solid #242B33;
+  border-bottom: 3px solid #242b33;
 }
 
 .title-rigth {
@@ -325,7 +342,7 @@ html {
 
 /* Styles for links in sections */
 .section a {
-  color: #D4C17F;
+  color: #d4c17f;
   transition: color 0.7s;
 }
 
@@ -343,7 +360,7 @@ html {
   left: 0px;
   width: 10px;
   height: 10px;
-  border: 1px solid #D4C17F;
+  border: 1px solid #d4c17f;
   border-radius: 50%;
   /* color: #D4C17F; */
 }
@@ -370,8 +387,8 @@ html {
   border-bottom: 3px solid transparent;
 }
 .code-item-active {
-  border-bottom: 3px solid #D4C17F;
-  color: #D4C17F !important;
+  border-bottom: 3px solid #d4c17f;
+  color: #d4c17f !important;
   pointer-events: none;
 }
 
@@ -400,7 +417,7 @@ html {
 
 /* Footer styles */
 .footer {
-  background-color: #242B33;
+  background-color: #242b33;
   padding: 50px 30px;
 }
 
@@ -437,16 +454,14 @@ html {
 
 svg {
   stroke: #fff;
-  fill: #fff; 
+  fill: #fff;
 }
-
 
 /* Animation */
 .attenuation {
   animation-name: attenuation;
   animation-duration: 1s;
 }
-
 
 @keyframes attenuation {
   from {
