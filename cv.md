@@ -1,4 +1,5 @@
 # [rsschool-cv](https://honeysafonovets.github.io/rsschool-cv/cv)
+# [HTMLPage-cv](https://honeysafonovets.github.io/rsschool-cv/)
 
 # Danil Egorov
 ### Junior Frontend developer
